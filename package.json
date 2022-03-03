@@ -1,0 +1,60 @@
+{
+  "name": "front",
+  "homepage": "https://samintermebel.uz",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^2.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@vicimpa/rubles": "^0.0.5",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.6.1",
+    "bootstrap-icons": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-currency-format": "^1.0.0",
+    "react-currency-input-field": "^3.6.4",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-image-magnify": "^2.7.4",
+    "react-moment": "^1.1.1",
+    "react-multi-carousel": "^2.8.0",
+    "react-responsive-carousel": "^3.2.22",
+    "react-router-dom": "^5.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^4.0.3",
+    "react-yandex-maps": "^4.6.0",
+    "sweetalert2": "^11.3.10",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

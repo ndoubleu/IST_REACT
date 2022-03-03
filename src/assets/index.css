@@ -1,0 +1,84 @@
+body{
+    background-color: #1C293C;
+    color: white;
+}
+.title{
+    font-size: 1.6rem;
+}
+.subtitle{
+    font-size: 1.2rem;
+}
+.text{
+    font-size: 0.9rem;
+}
+.smalltext{
+    font-size: 0.6rem;
+}
+.bold{
+    font-weight: bold;
+}
+.opacity{
+    opacity: 0.6;
+}
+.cart{
+    background-color: white;
+    color: black;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cart-title{
+    background-color: #F0F0F0;
+    padding: 1rem;
+}
+.cart-body{
+    background-color: white;
+    padding: 1.5rem 1rem;
+    -webkit-box-shadow: 0px -6px 8px -1px rgba(34, 60, 80, 0.14);
+    -moz-box-shadow: 0px -6px 8px -1px rgba(34, 60, 80, 0.14);
+    box-shadow: 0px -6px 8px -1px rgba(34, 60, 80, 0.14);
+    position: relative;
+}
+.cart-title span:first-child{
+    color: #0095FF;
+}
+
+.cart-arrow{
+    font-size: 30px;
+    position: absolute;
+    top: -8px;
+    transform: translateY(-12px);
+    color: white!important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+.selected{
+    background-color: white;
+    color: #1C293C;
+}
+.selected:hover{
+    color:#1C293C;
+    text-decoration: none;
+}
+.links{
+    padding: 1rem;
+    border-radius: 10px;
+}
+.links span{
+    line-height: 100%;
+}
+input{
+    background-color: #F0F0F0;
+    border: none;
+    border-radius: 10px;
+    color: #0095FF;
+}
+input:focus, input:active{
+    outline: none;
+}
